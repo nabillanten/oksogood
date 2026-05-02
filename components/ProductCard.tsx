@@ -33,7 +33,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       exit={{opacity: 0, scale: 0.95}}
       whileHover={{y: -4}}
       className="group bg-white border-2 border-brand-peach p-4 flex flex-col group relative">
-      <div className="relative aspect-[4/4] overflow-hidden mb-4 bg-brand-tan/10">
+      <div className="relative aspect-4/4 overflow-hidden mb-4 bg-brand-tan/10">
         <Image
           src={product.image}
           alt={product.name}
